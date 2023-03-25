@@ -20,4 +20,16 @@ mentoring the potential new hire employees. As you can see within the csv file t
 ![image](part3.png) 
 
 
-## Summary 
+## Summary  
+The amount of roles that will need to be filled as the "silver tsunami" takes place are quite a few. We are looking at total  90398 for just this company. It will defitnetly take a while to replace all those individuals especially if they all retire within a close time period. The query I used was:  
+ 
+SELECT DISTINCT ON (emp_no) emp_no
+FROM retirement_titles   
+ORDER BY emp_no asc 
+
+There are defitnetly not enough mentorship available employees to train the new employees coming in. The total amount of mentors available are 1549. The query I used was :  
+
+SELECT DISTINCT ON (emp_no) emp_no 
+FROM mentorship_eligibilty 
+ORDER BY emp_no ASC
+
