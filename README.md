@@ -12,7 +12,12 @@ The purpose of the analysis is to filter out the employees who are eligible for 
  
 3. The third part of the deliverable consists of titles of employees who are now eligible to retire. This will now help HR place job advertisements for the employees who are eligible to reitre.  
  
-![image](part3.png)
+![image](part3.png) 
+
+4. The second deliverable reflects employees who are eligible (born between January 1, 1965 and December 31, 1965 )
+mentoring the potential new hire employees. As you can see within the csv file there very many options.  
+ 
+![image](part3.png) 
 
 
 ## Summary 
